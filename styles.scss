@@ -1,10 +1,20 @@
+$primary: blue;
+
 header {
     display: flex;
     flex-direction: row;
+    background-color: $primary;
+    color: white;
+    justify-content: space-between;
+    padding: 18px;
+    align-items: center;
     nav{
         ul{
             display: flex;
             flex-direction: row;
+            list-style: georgian;
+            gap:28px
+
         }
     }
 }
