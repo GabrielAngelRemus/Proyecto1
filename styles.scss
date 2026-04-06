@@ -1,4 +1,5 @@
 $primary: blue;
+$shadow: rgb(85, 68, 68);
 
 header {
     display: flex;
@@ -12,9 +13,23 @@ header {
         ul{
             display: flex;
             flex-direction: row;
-            list-style: georgian;
+            text-size-adjust: inherit;
             gap:28px
 
         }
     }
+}
+
+#Proyectos{
+    display: flex;
+    flex-direction: row;
+
+    article{
+        border: 1px solid $shadow;
+        box-shadow: 5px 5px $shadow;
+    }
+
+}
+#Sobre Mi{
+
 }
